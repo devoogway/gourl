@@ -1,5 +1,5 @@
 {
-    "name": "devoogway/gourl-gate",
+    "name": "devoogway/gourl",
     "description": "implementation of gourl.io payment gateway for Laravel framework",
     "type": "library",
     "license": "MIT",
@@ -9,20 +9,20 @@
         "laravel",
         "payment gateway"
     ],
-    "homepage": "https://www.github.com/devoogway/gourl-gate",
+    "homepage": "https://www.github.com/devoogway/gourl",
     "extra": {
         "laravel": {
             "providers": [
-                "Devoogway\\GourlGate\\ServiceProvider"
+                "Devoogway\\Gourl\\ServiceProvider"
             ],
             "aliases": {
-                "GourlGate": "Devoogway\\GourlGate\\Facade"
+                "Gourl": "Devoogway\\Gourl\\Facade"
             }
         }
     },
     "autoload": {
         "psr-4": {
-            "Devoogway\\GourlGate\\": "src/"
+            "Devoogway\\Gourl\\": "src/"
         }
     },
     "authors": [
